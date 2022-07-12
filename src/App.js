@@ -1,16 +1,23 @@
-import ComponentOne from "./components/ComponentOne";
-import ComponentThree from "./components/ComponentThree";
-import ComponentTwo from "./components/ComponentTwo";
-import HigherOrderComponent from "./views/HigherOrderComponent/HigherOrderComponent";
+// import ComponentOne from "./components/ComponentOne";
+// import ComponentThree from "./components/ComponentThree";
+// import ComponentTwo from "./components/ComponentTwo";
+
+import CategoryJewellory from "./components/categoryJewelery";
+import CategoryMenClothing from './components/categoryMenClothing'
+import CategoryWomenClothing from './components/categoryWomenClothing'
+import CategoryElectronics from "./components/categoryElectronics";
 
 
 function App() {
   return (
     <>
-      <h1>App</h1>
-      <ComponentOne  />
+      {/* <ComponentOne  />
       <ComponentTwo />
-      <ComponentThree />
+      <ComponentThree /> */}
+      <CategoryJewellory />
+      <CategoryElectronics />
+      <CategoryMenClothing />
+      <CategoryWomenClothing />
     </>
   );
 }
